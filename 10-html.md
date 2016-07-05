@@ -60,6 +60,12 @@ Les nouvelles balises structurantes du HTML5:
 
 Les balises audio et video.
 
+`<picture>` ... élément permettant des images responsives, alternative à `<img>`
+
+- http://caniuse.com/#feat=picture
+- https://github.com/scottjehl/picturefill - un polyfill
+- https://responsiveimages.org/
+
 ## Les navigateurs en usage
 
 Depuis les débuts du web, les capacités des navigateurs ont fortement évolué. Lors du développement d'un projet web, il est important de considérer quels sont les navigateurs en usage (qui peuvent varier selon la zone géographique, et même selon le public d'un site donné). Certains choix qui auraient été exclus en 2014 sont devenus pertinents en 2016 (p.ex. l'usage de [Flexbox](/cours-web/css/layout#une-nouvelle-approche-flexbox) pour la création de mises en page CSS).
@@ -96,7 +102,7 @@ Les statistiques pour la Suisse en mai 2016 (fournies par gs.statcounter.com):
 
 **UC Browser** est un navigateur mobile chinois, qui détient 20% du trafic mobile mondial en mai 2016.
 
-Accessibilité
+Accessibilité : écrire un HTML accessible
 -------
 
 L'accessibilité réside dans la capacité d'un site à afficher votre document lisible dans un maximum de situations, pour un maximum de personnes.
