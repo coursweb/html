@@ -1,7 +1,7 @@
 ---
 layout: page
 title: JavaScript
-permalink: /javascript/
+permalink: /html/javascript/
 ---
 
 Le **JavaScript** n'a rien à voir avec **Java**, un autre language de programmation. Il a été créé en 1995, pour Netscape Navigator, par un certain Brendan Eich. Le langage a été créé en 10 jours, pour coïncider avec la sortie de Netscape 2.0. Microsoft, pour son navigateur Internet Explorer, a fait du "reverse-engineering", pour introduire en 1996 JScript, dans IE version 3. En fin 1996, Netscape entreprend des démarches pour faire de JavaScript un standard (qui s'appelle ECMAScript). Ce standard est révisé régulièrement, la 6ème version (ES6) a été finalisée en juin 2015.
