@@ -39,37 +39,3 @@ Les statistiques pour la Suisse en mai 2016 (fournies par gs.statcounter.com):
 
 **UC Browser** est un navigateur mobile chinois, qui détient 20% du trafic mobile mondial en mai 2016.
 
-Accessibilité : écrire un HTML accessible
--------
-
-L'accessibilité réside dans la capacité d'un site à afficher votre document lisible dans un maximum de situations, pour un maximum de personnes.
-
-Parmi les critères à prendre en compte:
-- Le contraste de couleur est-il suffisant?
-- Les images ont-elles un texte descriptif (balise alt)?
-
-À propos du texte alternatif:
-
-[Bien utiliser le texte alternatif](http://www.pompage.net/traduction/Bien-utiliser-le-texte-alternatif), par WebAIM, 2007
-
-Ressources
--------
-
-Quelques ressources pour aller plus loin:
-
-Le projet *HTML5 Boilerplate*, un modèle visant à faciliter le démarrage d'un projet HTML/CSS. 
-
-Peut-on utiliser telle ou telle propriété CSS?
-
-* [http://caniuse.com/](http://caniuse.com/)
-* [http://html5please.com/](http://html5please.com/)
-
-Ressources en ligne:
-
-Mark Boulton: *Designing for the Web*   
-[http://designingfortheweb.co.uk/](http://designingfortheweb.co.uk/)
-
-Ressource collaborative: *Web Standards Curriculum*   
-[https://www.w3.org/community/webed/wiki/Main_Page](https://www.w3.org/community/webed/wiki/Main_Page)
-
-
