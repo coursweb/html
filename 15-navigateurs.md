@@ -5,25 +5,27 @@ permalink: /html/navigateurs/
 ---
 ## Les navigateurs en usage
 
-Depuis les débuts du web, les capacités des navigateurs ont fortement évolué. Lors du développement d'un projet web, il est important de considérer quels sont les navigateurs en usage (qui peuvent varier selon la zone géographique, et même selon le public d'un site donné). Certains choix qui auraient été exclus en 2014 sont devenus pertinents en 2016 (p.ex. l'usage de [Flexbox](/cours-web/css/layout#une-nouvelle-approche-flexbox) pour la création de mises en page CSS).
+Depuis les débuts du web, les capacités des navigateurs ont fortement évolué. Lors du développement d'un projet web, il est important de considérer quels sont les navigateurs en usage (qui peuvent varier selon la zone géographique, et même selon le public d'un site donné). 
+
+Certains choix qui auraient été exclus en 2014 sont devenus pertinents en 2016 (p.ex. l'usage de [Flexbox](/cours-web/css/layout#une-nouvelle-approche-flexbox) pour la création de mises en page CSS).
 
 Les navigateurs actuellement en utilisation (usage mondial, mai 2016, toutes plateformes):
 
-* Chrome: 47% (dont 16% sur Android)
-* Safari: 13% (dont 7% iPhone et 3% iPad)
-* Firefox: 8.34%
-* IE: 7% (dont 5% IE 11)
-* Opera: 5.68%
-* Edge: 1.13%
+* **Chrome**: 47% (dont 16% sur Android)
+* **Safari**: 13% (dont 7% iPhone et 3% iPad)
+* **Firefox**: 8.34%
+* **IE**: 7% (dont 5% IE 11)
+* **Opera**: 5.68%
+* **Edge**: 1.13%
 
 Les statistiques pour la Suisse en mai 2016 (fournies par gs.statcounter.com):
 
-* Chrome: 27% (dont 6% sur Android)
-* IE: 24% (dont 16% IE 11)
-* Safari: 23% (dont 12% iPhone, 8.55% iPad)
-* Firefox: 18%
-* Edge: 4.41%
-* IE 10: 0.84%
+* **Chrome**: 27% (dont 6% sur Android)
+* **IE**: 24% (dont 16% IE 11)
+* **Safari**: 23% (dont 12% iPhone, 8.55% iPad)
+* **Firefox**: 18%
+* **Edge**: 4.41%
+* **IE 10**: 0.84%
 
 **Notes:** 
 

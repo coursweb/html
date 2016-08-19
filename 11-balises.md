@@ -63,9 +63,7 @@ Balises de texte
 `<p>` | Defines a paragraph
 `<pre>` | Defines preformatted text
 `<q>` | Defines a short quotation
-`<rp>` | Defines what to show in browsers that do not support ruby annotations
-`<rt>` | Defines an explanation/pronunciation of characters (for East Asian typography)
-`<ruby>` | Defines a ruby annotation (for East Asian typography)
+
 `<s>` | Defines text that is no longer correct
 `<samp>` | Defines sample output from a computer program
 `<small>` | Defines smaller text
@@ -96,13 +94,12 @@ Balises de médias
 -----|-----:
 `<audio>` | Defines sound content
 `<canvas>` | Used to draw graphics, on the fly, via scripting (usually JavaScript)
-`<embed>` | Defines a container for an external (non-HTML) application
 `<figcaption>` | Defines a caption for a `<figure>` element
 `<figure>` | Specifies self-contained content
 `<img>` | Defines an image
 `<map>` | Defines a client-side image-map
-`<object>` | Defines an embedded object
 `<source>` | Defines multiple media resources for media elements (`<video>` and `<audio>`)
+`<svg>` | Fichier vectoriel SVG
 `<track>` | Defines text tracks for media elements (`<video>` and `<audio>`)
 `<video>` | Defines a video or movie
 
@@ -111,8 +108,6 @@ Formulaires, interactivité
 
 -----|-----:
 `<button>` | Defines a clickable button
-`<datalist>` | Specifies a list of pre-defined options for input controls
-`<dialog>` | Defines a dialog box or window
 `<fieldset>` | Groups related elements in a form
 `<form>` | Defines an HTML form for user input
 `<input>` | Defines an input control
@@ -120,14 +115,12 @@ Formulaires, interactivité
 `<keygen>` | Defines a key-pair generator field (for forms)
 `<label>` | Defines a label for an `<input>` element
 `<legend>` | Defines a caption for a `<fieldset>` element
-`<menu>` | Defines a list/menu of commands
-`<menuitem>` | Defines a command/menu item that the user can invoke from a popup menu
 `<meter>` | Defines a scalar measurement within a known range (a gauge)
 `<optgroup>` | Defines a group of related options in a drop-down list
 `<option>` | Defines an option in a drop-down list
 `<output>` | Defines the result of a calculation
 `<param>` | Defines a parameter for an object
-`<progress>` | Represents the progress of a task
+`<progress>` | Indique l'état d'avancement d'un travail (barre de progression). [support](http://caniuse.com/#feat=progress) dès IE10, Safari 6.
 `<select>` | Defines a drop-down list
 `<textarea>` | Defines a multiline input control (text area)
 `<var>` | Defines a variable
@@ -136,22 +129,35 @@ Tableaux
 ===
 
 -----|-----:
-`<caption>` | Defines a table caption  
-`<col>` | Specifies column properties for each column within a `<colgroup>` element   
-`<colgroup>` | Specifies a group of one or more columns in a table for formatting  
-`<table>` | Defines a table  
-`<tbody>` | Groups the body content in a table  
-`<td>` | Defines a cell in a table  
-`<tfoot>` | Groups the footer content in a table  
+`<table>` | Définit un tableau. [W3C](https://www.w3.org/community/webed/wiki/HTML/Elements/table), 
+`<tr>` | Définit un rang horizontal 
+`<td>` | Définit une cellule 
 `<th>` | Defines a header cell in a table  
-`<thead>` | Groups the header content in a table  
-`<tr>` | Defines a row in a table
+`<caption>` | Représente le titre d'un tableau. [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/caption)  
+ `<colgroup>` | Specifies a group of one or more columns in a table for formatting  
+`<col>` | Specifies column properties for each column within a `<colgroup>` element 
+`<thead>` | Regroupe l'en-tête d'un tableau  
+`<tbody>` | Regroupe le corps d'un tableau
+`<tfoot>` | Regroupe le pied d'un tableau. [W3C](https://www.w3.org/community/webed/wiki/HTML/Elements/tfoot). 
+
+Balises récentes et expérimentales
+===
+`<datalist>` | Specifies a list of pre-defined options for input controls
+`<dialog>` | Defines a dialog box or window. Pas supporté par IE, Firefox, Safari.
+`<menu>` | Defines a list/menu of commands
+`<menuitem>` | Defines a command/menu item that the user can invoke from a popup menu
 
 Autres balises
 ===
 
 -----|-----:
 `<area>` | Defines an area inside an image-map
+`<embed>` | Defines a container for an external (non-HTML) application
+`<object>` | Defines an embedded object
+`<rp>` | Defines what to show in browsers that do not support ruby annotations
+`<rt>` | Defines an explanation/pronunciation of characters (for East Asian typography)
+`<ruby>` | Defines a ruby annotation (for East Asian typography)
+
 
 Balises obsolètes
 ===
