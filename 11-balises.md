@@ -63,7 +63,6 @@ Balises de texte
 `<p>` | Defines a paragraph
 `<pre>` | Defines preformatted text
 `<q>` | Defines a short quotation
-
 `<s>` | Defines text that is no longer correct
 `<samp>` | Defines sample output from a computer program
 `<small>` | Defines smaller text
@@ -77,16 +76,22 @@ Balises de texte
 Listes, Définitions, etc
 ===
 
+Balises pour les listes:
+
+-----|-----:
+`<ol>` | Defines an ordered list
+`<ul>` | Defines an unordered list
+`<li>` | Defines a list item
+`<details>` | Defines additional details that the user can view or hide
+`<summary>` | Defines a visible heading for a `<details>` element
+
+Balises pour les définitions:
+
 -----|-----:
 `<dd>` | Defines a description/value of a term in a description list
-`<details>` | Defines additional details that the user can view or hide
-`<dfn>` | Represents the defining instance of a term
 `<dl>` | Defines a description list
 `<dt>` | Defines a term/name in a description list
-`<li>` | Defines a list item
-`<ol>` | Defines an ordered list
-`<summary>` | Defines a visible heading for a `<details>` element
-`<ul>` | Defines an unordered list
+`<dfn>` | Represents the defining instance of a term
 
 Balises de médias
 ===
@@ -94,8 +99,8 @@ Balises de médias
 -----|-----:
 `<audio>` | Defines sound content
 `<canvas>` | Used to draw graphics, on the fly, via scripting (usually JavaScript)
-`<figcaption>` | Defines a caption for a `<figure>` element
 `<figure>` | Specifies self-contained content
+`<figcaption>` | Defines a caption for a `<figure>` element
 `<img>` | Defines an image
 `<map>` | Defines a client-side image-map
 `<source>` | Defines multiple media resources for media elements (`<video>` and `<audio>`)
@@ -142,6 +147,8 @@ Tableaux
 
 Balises récentes et expérimentales
 ===
+
+-----|-----:
 `<datalist>` | Specifies a list of pre-defined options for input controls
 `<dialog>` | Defines a dialog box or window. Pas supporté par IE, Firefox, Safari.
 `<menu>` | Defines a list/menu of commands
@@ -154,27 +161,28 @@ Autres balises
 `<area>` | Defines an area inside an image-map
 `<embed>` | Defines a container for an external (non-HTML) application
 `<object>` | Defines an embedded object
+`<ruby>` | Defines a ruby annotation (for East Asian typography)
 `<rp>` | Defines what to show in browsers that do not support ruby annotations
 `<rt>` | Defines an explanation/pronunciation of characters (for East Asian typography)
-`<ruby>` | Defines a ruby annotation (for East Asian typography)
-
 
 Balises obsolètes
 ===
 
+Balises qui ne sont plus supportées en HTML5:
+
 -----|-----:
-`<acronym>` | Not supported in HTML5. Use `<abbr>` instead. Defines an acronym  
-`<applet>` | Not supported in HTML5. Use `<embed>` or `<object>` instead. Defines an embedded applet  
-`<basefont>` | Not supported in HTML5. Use CSS instead. Specifies a default color, size, and font for all text in a document  
-`<big>` | Not supported in HTML5. Use CSS instead. Defines big text  
-`<center>` | Not supported in HTML5. Use CSS instead. Defines centered text  
-`<dir>` | Not supported in HTML5. Use `<ul>` instead. Defines a directory list 
-`<font>` | Not supported in HTML5. Use CSS instead. Defines font, color, and size for text
-`<frame>` | Not supported in HTML5. Defines a window (a frame) in a frameset
-`<frameset>` | Not supported in HTML5. Defines a set of frames
-`<noframes>` | Not supported in HTML5. Defines an alternate content for users that do not support frames 
-`<strike>` | Not supported in HTML5. Use `<del>` or `<s>` instead. Defines strikethrough text  
-`<tt>` | Not supported in HTML5. Use CSS instead. Defines teletype text
+`<acronym>` | Use `<abbr>` instead. Defines an acronym.  
+`<applet>` | Use `<embed>` or `<object>` instead. Defines an embedded applet (application Java).  
+`<basefont>` | Use CSS instead. Specifies a default color, size, and font for all text in a document.  
+`<big>` | Use CSS instead. Defines big text.  
+`<center>` | Use CSS instead. Defines centered text.  
+`<dir>` | Use `<ul>` instead. Defines a directory list. 
+`<font>` | Use CSS instead. Defines font, color, and size for text.
+`<frame>` | Defines a window (a frame) in a frameset.
+`<frameset>` | Defines a set of frames.
+`<noframes>` | Defines an alternate content for users that do not support frames. 
+`<strike>` | Use `<del>` or `<s>` instead. Defines strikethrough text.  
+`<tt>` | Use CSS instead. Defines teletype text.
 
 
 
