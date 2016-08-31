@@ -10,36 +10,39 @@ Balises générales
 ===
 
 -----|-----:
-`<!--...-->` | Defines a comment
-`<!DOCTYPE>` | Defines the document type
-`<base>` | Specifies the base URL/target for all relative URLs in a document  
-`<head>` | Defines information about the document
-`<html>` | Defines the root of an HTML document
-`<iframe>` | Defines an inline frame
-`<link>` | Defines the relationship between a document and an external resource (most used to link to style sheets)
-`<meta>` | Defines metadata about an HTML document
-`<noscript>` | Defines an alternate content for users that do not support client-side scripts
-`<script>` | Defines a client-side script
-`<style>` | Defines style information for a document  
-`<title>` | Defines a title for the document
+`<!--...-->` | Définit un commentaire (code qui ne sera pas affiché)
+`<!DOCTYPE>` | Définit le type de document
+`<base>` | Définit une base pour toutes les URL relatives du document
+`<head>` | Une section contenant des informations au sujet du document
+`<html>` | Définit la racine d'un document HTML
+`<iframe>` | Définit une *inline frame* : une fenêtre pouvant charger des contenus depuis une autre URL
+`<link>` | Définit une relation entre un document et une ressource externe (le plus souvent, des feuilles de styles)
+`<meta>` | Définit des métadonnes au sujet d'un document HTML
+`<noscript>` | Définit un contenu alternatif pour les usagers ne pouvant pas exécuter des scripts
+`<script>` | Définit un script qui sera exéctué par le navigateur
+`<style>` | Définit des styles pour le document 
+`<title>` | Définit le titre du document
 
 Eléments de structure d'un document
 ===
 
 -----|-----:
-`<body>` | Defines the document's body  
-`<article>` | Defines an article  
-`<aside>` | Defines content aside from the page content 
-`<footer>` | Defines a footer for a document or section 
-`<div>` | Defines a section in a document
-`<h1>` to `<h6>` | Defines HTML headings
-`<header>` | Defines a header for a document or section
+`<body>` | Définit le corps du document  
+`<div>` | Définit une section dans un document
+`<h1> - <h6>` | Définit un titre, soustitre ou inter-titre (*headings*)
 `<hgroup>` | 
-`<hr>` | Defines a thematic change in the content 
-`<main>` | Specifies the main content of a document 
-`<nav>` | Defines navigation links  
-`<section>` | Defines a section in a document
-`<span>` | Defines a section in a document
+`<hr>` | Définit un changement thématique dans le contenu. Généralement rendu par une ligne de séparation horizontale 
+`<span>` | Définit une section dans un document
+
+Nouveaux éléments de structure introduits avec HTML5:
+
+`<article>` | Définit un article (un contenu indépendant)  
+`<aside>` | Définit un contenu annexe 
+`<header>` | Définit l'en-tête d'un document ou d'une section
+`<footer>` | Définit le pied d'un document ou d'une section 
+`<main>` | Désigne le contenu principal d'un document 
+`<nav>` | Définit un menu de navigation  
+`<section>` | Définit une section dans un document
 
 Balises de texte
 ===
