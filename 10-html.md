@@ -4,9 +4,9 @@ title: HTML
 permalink: /html/
 ---
 
-Introduction au HTML.
+![](/cours-web/cours-html/img/head-body-tag.jpg)
 
-Ce support de cours donne une introduction au langage HTML.
+Ce support de cours a pour objectif de vous introduire au langage HTML.
 
 Il vous aidera à: 
 
@@ -16,16 +16,20 @@ Il vous aidera à:
 Les balises
 ==
 
+Le HTML n'est pas un language de programmation, mais un language de "marquage" (*markup* en anglais). Il permet de "baliser" un document afin de décrire sa structure.
+
 Le vocabulaire du langage HTML se compose de quelques 120 balises.
 
 Quelques balises présentes depuis le début:
 
-* L'hyperlien : `<a>`    
-* Le titre : `<h1>` à `<h6>`    
-* Le paragraphe : `<p>`
+* L'hyperlien - `<a>` - qui permet de pointer vers une autre ressource en ligne.     
+* Le titre - `<h1>` à `<h6>` - permettant d'instaurer une structure interne à un document.    
+* Le paragraphe - `<p>` - qui identifie un paragraphe de texte.
+
+Voir la liste de [toutes les balises](balises/).
 
 Un article au sujet des styles de liens:
-[Signalétique des hyperliens](http://letrainde13h37.fr/43/signaletique-hyperliens/), par Romy Duhem-Verdière, 2013
+*[Signalétique des hyperliens](http://letrainde13h37.fr/43/signaletique-hyperliens/)*, par Romy Duhem-Verdière, le train de 13h37, 2013
 
 
 
