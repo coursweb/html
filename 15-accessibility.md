@@ -13,6 +13,8 @@ Parmi les critères à prendre en compte:
 - Le contraste de couleur est-il suffisant?
 - Les images ont-elles un texte descriptif (balise alt)?
 
+TODO: information sur les critères, WCAG 1.0, WCAG 2.0, Section 508, RGAA, ARIA...
+
 À propos du texte alternatif:
 
 [Bien utiliser le texte alternatif](http://www.pompage.net/traduction/Bien-utiliser-le-texte-alternatif), par WebAIM, 2007
