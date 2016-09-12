@@ -48,31 +48,29 @@ Balises de texte
 ===
 
 -----|-----:
-`<a>` | Defines a hyperlink  
-`<abbr>` | Defines an abbreviation or an acronym  
+`<a>` | Un hyperlien, avec l'attribut `href` indiquant la cible.  
+`<abbr>` | Une abréviation ou un acronmye.  
 `<address>` | Defines contact information for the author/owner of a document
-`<b>` | Defines bold text
-`<blockquote>` | Defines a section that is quoted from another source
-`<bdi>` | Isolates a part of text that might be formatted in a different direction from other text outside it
-`<bdo>` | Overrides the current text direction
-`<br>` | Defines a single line break
-`<cite>` | Defines the title of a work
+`<b>` | Du texte en gras (bold).
+`<blockquote>` | Defines a section that is quoted from another source [HTML5doc](http://html5doctor.com/cite-and-blockquote-reloaded/)
+`<br>` | Un retour de ligne simple (line break).
+`<cite>` | Defines the title of a work. [HTML5doc](http://html5doctor.com/cite-and-blockquote-reloaded/)
 `<code>` | Defines a piece of computer code
 `<del>` | Defines text that has been deleted from a document
 `<em>` | Defines emphasized text 
 `<i>` | Defines a part of text in an alternate voice or mood
 `<ins>` | Defines a text that has been inserted into a document
-`<mark>` | Defines marked/highlighted text
+`<mark>` | Définit du texte mis en évidence, p.ex. un terme surligné dans les résultats d'une recherche. Balise introduite en HTML5.
 `<p>` | Defines a paragraph
 `<pre>` | Defines preformatted text
-`<q>` | Defines a short quotation
+`<q>` | Defines a short quotation [HTML5doc](http://html5doctor.com/cite-and-blockquote-reloaded/)
 `<s>` | Defines text that is no longer correct
 `<samp>` | Defines sample output from a computer program
 `<small>` | Defines smaller text
 `<sub>` | Defines subscripted text
 `<sup>` | Defines superscripted text
 `<strong>` | Defines important text
-`<time>` | Defines a date/time
+`<time>` | Définit un élément de date ou d'heure. Peut contenir un attribut `datetime` avec la date en encodage ISO. Balise introduite avec HTML5.
 `<u>` | Defines text that should be stylistically different from normal text
 `<wbr>` | Defines a possible line-break
 
@@ -156,6 +154,7 @@ Balises récentes et expérimentales
 `<dialog>` | Defines a dialog box or window. Pas supporté par IE, Firefox, Safari.
 `<menu>` | Defines a list/menu of commands
 `<menuitem>` | Defines a command/menu item that the user can invoke from a popup menu
+ `<picture>` | Permet de définir des images responsives.
 
 Autres balises
 ===
@@ -163,6 +162,8 @@ Autres balises
 -----|-----:
 `<area>` | Defines an area inside an image-map
 `<embed>` | Defines a container for an external (non-HTML) application
+`<bdi>` | Isolates a part of text that might be formatted in a different direction from other text outside it
+`<bdo>` | Overrides the current text direction
 `<object>` | Defines an embedded object
 `<ruby>` | Defines a ruby annotation (for East Asian typography)
 `<rp>` | Defines what to show in browsers that do not support ruby annotations
