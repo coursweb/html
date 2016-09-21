@@ -6,22 +6,6 @@ permalink: /html/balises/
 
 Liste des balises HTML disponibles
 
-Balises générales
-===
-
------|-----:
-`<!--...-->` | Définit un commentaire (code qui ne sera pas affiché)
-`<!DOCTYPE>` | Définit le type de document
-`<base>` | Définit une base pour toutes les URL relatives du document
-`<head>` | Une section contenant des informations au sujet du document
-`<html>` | Définit la racine d'un document HTML
-`<iframe>` | Définit une *inline frame* : une fenêtre pouvant charger des contenus depuis une autre URL
-`<link>` | Définit une relation entre un document et une ressource externe (le plus souvent, des feuilles de styles)
-`<meta>` | Définit des métadonnes au sujet d'un document HTML
-`<noscript>` | Définit un contenu alternatif pour les usagers ne pouvant pas exécuter des scripts
-`<script>` | Définit un script qui sera exéctué par le navigateur
-`<style>` | Définit des styles pour le document 
-`<title>` | Définit le titre du document
 
 Eléments de structure d'un document
 ===
@@ -30,7 +14,6 @@ Eléments de structure d'un document
 `<body>` | Définit le corps du document  
 `<div>` | Définit une section dans un document
 `<h1> - <h6>` | Définit un titre, soustitre ou inter-titre (*headings*)
-`<hgroup>` | 
 `<hr>` | Définit un changement thématique dans le contenu. Généralement rendu par une ligne de séparation horizontale 
 `<span>` | Définit une section dans un document
 
@@ -98,16 +81,17 @@ Balises de médias
 ===
 
 -----|-----:
-`<audio>` | Defines sound content
+`<audio>` | Déinfit un contenu sonore
 `<canvas>` | Used to draw graphics, on the fly, via scripting (usually JavaScript)
-`<figure>` | Specifies self-contained content
-`<figcaption>` | Defines a caption for a `<figure>` element
-`<img>` | Defines an image
+`<figure>` | Permet de grouper une image avec la légende qui l'accompagne
+`<figcaption>` | Permet de définir une légende, à l'intérieur d'un élément `<figure>`
+`<img>` | Définit une image
 `<map>` | Defines a client-side image-map
+`<picture>` | Un contenur d'image pouvant inclure différentes variantes – [W3C](http://w3c.github.io/html/semantics-embedded-content.html#the-picture-element) / [caniuse](http://caniuse.com/#search=picture) / [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/picture)
 `<source>` | Defines multiple media resources for media elements (`<video>` and `<audio>`)
-`<svg>` | Fichier vectoriel SVG
-`<track>` | Defines text tracks for media elements (`<video>` and `<audio>`)
-`<video>` | Defines a video or movie
+`<svg>` | Définit une image dans le format vectoriel SVG
+`<track>` | Définit une piste de texte (sous-titre) pour un élément média (`<video>` ou `<audio>`)
+`<video>` | Définit un contenu vidéo
 
 Formulaires, interactivité
 ===
@@ -155,6 +139,24 @@ Balises récentes et expérimentales
 `<menu>` | Defines a list/menu of commands
 `<menuitem>` | Defines a command/menu item that the user can invoke from a popup menu
  `<picture>` | Permet de définir des images responsives.
+
+Balises générales
+===
+
+-----|-----:
+`<!--...-->` | Définit un commentaire (code qui ne sera pas affiché)
+`<!DOCTYPE>` | Définit le type de document
+`<meta>` | Définit des métadonnes au sujet d'un document HTML
+`<title>` | Définit le titre du document
+`<base>` | Définit une base pour toutes les URL relatives du document
+`<head>` | Une section contenant des informations au sujet du document
+`<html>` | Définit la racine d'un document HTML
+`<iframe>` | Définit une *inline frame* : une fenêtre pouvant charger des contenus depuis une autre URL
+`<link>` | Définit une relation entre un document et une ressource externe (le plus souvent, des feuilles de styles)
+`<noscript>` | Définit un contenu alternatif pour les usagers ne pouvant pas exécuter des scripts
+`<script>` | Définit un script qui sera exéctué par le navigateur
+`<style>` | Définit des styles pour le document 
+
 
 Autres balises
 ===
