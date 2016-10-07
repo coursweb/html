@@ -7,7 +7,7 @@ permalink: /html/navigateurs/
 
 Depuis les débuts du web, les capacités des navigateurs ont fortement évolué. Lors du développement d'un projet web, il est important de considérer quels sont les navigateurs en usage (qui peuvent varier selon la zone géographique, et même selon le public d'un site donné). 
 
-![L'évolution des navigateurs entre 1995 et 2015](/cours-web/cours-html/img/navigateurs-timeline.png)    
+![L'évolution des navigateurs entre 1995 et 2015](/cours-html/img/navigateurs-timeline.png)    
 *L'évolution des navigateurs entre 1995 et 2015*
 
 Certains choix qui auraient été exclus en 2014 sont devenus pertinents en 2016 (p.ex. l'usage de [Flexbox](/cours-web/css/layout#une-nouvelle-approche-flexbox) pour la création de mises en page CSS).
@@ -33,7 +33,7 @@ Les statistiques pour la Suisse en mai 2016 (fournies par [gs.statcounter.com](h
 Navigateurs courants
 === 
 
-![](/cours-web/cours-html/img/navigateurs.jpg)
+![](/cours-html/img/navigateurs.jpg)
 
 
 **IE (Internet Explorer)**, développé par Microsoft depuis 1995, est remplacé par **Edge** en 2015. La version IE 11, sortie en 2013 avec Windows 8.1, est actuellement la plus répandue (16% en Suisse). L'usage de IE 10 n'est que de 0.84%.
