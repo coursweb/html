@@ -42,3 +42,8 @@ Le texte entier: [https://www.w3.org/TR/WCAG20/](https://www.w3.org/TR/WCAG20/)
 À propos du texte alternatif:
 
 [Bien utiliser le texte alternatif](http://www.pompage.net/traduction/Bien-utiliser-le-texte-alternatif), par WebAIM, 2007
+
+Ressources
+===
+
+* [Tools for Developing Accessible Websites](https://bitsofco.de/tools-for-developing-accessible-websites/), par Ire Aderinokun.
