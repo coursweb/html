@@ -82,7 +82,7 @@ Un élément "bloc" va toujours occuper toute la largeur à disposition, contrai
 
 Chaque élément possède un aspect par défaut, mais il est possible d'agir dessus avec la propriété CSS "display". On peut ainsi modifier simplement l'aspect d'un menu: en mode "display-bloc", ce sera un menu vertical. En mode "inline", cela devient un menu horizontal.
 
-Avec HTML5, ce mode binaire se compléxifie, on se retrouve avec toute une liste de catégories de contenu: 
+Avec HTML5, ce mode binaire se complexifie, on se retrouve avec toute une liste de catégories de contenu: 
 
 - **Contenu de flux (Flow content)** - correspond de près au mode "block-level", et s'applique à la majorité des éléments. Notamment: `<div>`, `<article>`, `<blockquote>`, `<img>`, `<p>`...
 - **Contenu sectionnant (Sectioning content)** - les éléments qui définissent des sections: `<article>`, `<aside>`, `<nav>`, `<section>`
@@ -96,4 +96,4 @@ Là où cela devient important: certains éléments ne peuvent contenir *que* du
 Plus d'informations: 
  
 - [La spécification HTML](https://dev.w3.org/html5/spec-preview/content-models.html).
-- *[Catégories de contenu](https://developer.mozilla.org/fr/docs/Web/HTML/Catégorie_de_contenu)*, documentation Mozilla Developer Network. https://developer.mozilla.org/fr/docs/Web/HTML/Element/caption
+- *[Catégories de contenu](https://developer.mozilla.org/fr/docs/Web/HTML/Catégorie_de_contenu)*, documentation Mozilla Developer Network.
