@@ -2,7 +2,7 @@
 
 Support de cours programmation web
 
-En ligne sous: [http://collectifwp.github.io/cours-web/](http://collectifwp.github.io/cours-web/)
+En ligne sous: [http://cours-web.ch/](http://cours-web.ch/)
 
 ## À propos
 
@@ -27,5 +27,5 @@ Les contenus sont rédigés en syntaxe Markdown.
 Les auteurs et contributeurs sont:
 
 * Manuel Schmalstieg – artiste, développeur et enseignant.
-* ...
+* Yoan Blanc - Freelance developer hanging around @HE-Arc and @CPLN.
 
