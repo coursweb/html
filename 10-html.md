@@ -28,7 +28,7 @@ Quelques balises présentes depuis le début:
 
 Un exemple de balise hyperlien:
 
-```
+```html
 <a href="http://example.com">Un Lien</a>
 ```
 
