@@ -26,6 +26,12 @@ Quelques balises présentes depuis le début:
 * Le titre - `<h1>` à `<h6>` - permettant d'instaurer une structure interne à un document.    
 * Le paragraphe - `<p>` - qui identifie un paragraphe de texte.
 
+Un exemple de balise hyperlien:
+
+```
+<a href="http://example.com">Un Lien</a>
+```
+
 Voir la liste de [toutes les balises](balises/).
 
 Un article au sujet des styles de liens:
