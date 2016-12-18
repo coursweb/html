@@ -57,10 +57,14 @@ Dès 2010, les premiers éléments du HTML5 ont commencé à être supportés pa
 
 Ce n'est qu'en 2014 que le HTML5 devient une recommandation stable du W3C, alors que ses fonctionalités sont implémentées depuis longtemps dans les navigateurs.
 
+En fin 2016, le W3C rend officielle la version HTML 5.1.
+
 Actuellement, la spécification HTML est maintenue de manière parallèle par ces deux groupes de travail: 
 
 - La spécification HTML du **W3C**: [https://w3c.github.io/html/](https://w3c.github.io/html/)
 - La spécification HTML du **WHATWG**: [https://html.spec.whatwg.org/multipage/](https://html.spec.whatwg.org/multipage/)
+
+> J'ai toujours dit que la standardisation au W3C, c'est de l'hémoglobine sur les murs dans une ambiance feutrée. – Daniel Glazman
 
 **Références:**
 
