@@ -46,4 +46,7 @@ Le texte entier: [https://www.w3.org/TR/WCAG20/](https://www.w3.org/TR/WCAG20/)
 Ressources
 ===
 
-* [Tools for Developing Accessible Websites](https://bitsofco.de/tools-for-developing-accessible-websites/), par Ire Aderinokun.
+* [Tools for Developing Accessible Websites](https://bitsofco.de/tools-for-developing-accessible-websites/), par Ire Aderinokun, novembre 2016.
+* [Rules for Using ARIA in HTML](https://bitsofco.de/rules-for-using-aria-in-html/), par Ire Aderinokun, janvier 2017.
+* [Web accessibility myths 2011](http://www.hassellinclusion.com/2011/12/accessibility-myths-2011/), Jonathan Hassell, 2011.
+* [Web Accessibility Myths 2011 part 2](http://www.hassellinclusion.com/2012/01/web-accessibility-myths-2011-part2/), Jonathan Hassell, 2012.
