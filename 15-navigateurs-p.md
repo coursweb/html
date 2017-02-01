@@ -10,7 +10,7 @@ Depuis les débuts du web, les capacités des navigateurs ont fortement évolué
 ![L'évolution des navigateurs entre 1995 et 2015](/cours-html/img/navigateurs-timeline.png)    
 *L'évolution des navigateurs entre 1995 et 2015*
 
-Certains choix qui auraient été exclus en 2014 sont devenus pertinents en 2016 (p.ex. l'usage de [Flexbox](/cours-web/css/layout#une-nouvelle-approche-flexbox) pour la création de mises en page CSS).
+Certains choix qui auraient été exclus en 2014 sont devenus pertinents en 2016 (p.ex. l'usage de [Flexbox](/css/layout#une-nouvelle-approche-flexbox) pour la création de mises en page CSS).
 
 Les navigateurs actuellement en utilisation (usage mondial, mai 2016, toutes plateformes):
 
