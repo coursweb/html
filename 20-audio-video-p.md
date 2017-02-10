@@ -39,6 +39,20 @@ Exemple de code:
 </picture>
 ~~~
 
+Et voici un autre exemple trouvé sur le site [sketchapp.com](https://www.sketchapp.com/features/). On notera qu'il utilise le format [WebP](https://fr.wikipedia.org/wiki/WebP), nouveau format compressé développé par Google.
+
+~~~
+<picture>
+  <source 
+   srcset="/images/features/mirror.webp 1x,
+   /images/features/mirror@2x.webp 2x" 
+   type="image/webp">
+  <img src="/images/features/mirror-png8.png" 
+   srcset="/images/features/mirror-png8@2x.png 2x">
+</picture>
+~~~
+
+
 - [http://caniuse.com/#feat=picture](http://caniuse.com/#feat=picture)
 - [https://github.com/scottjehl/picturefill - un polyfill]()
 - [https://responsiveimages.org/](https://responsiveimages.org/)
