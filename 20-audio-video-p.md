@@ -4,7 +4,7 @@ title: Audio, Video, Images
 permalink: /html/audio-video-images/
 ---
 
-Les balises audio et video
+Les balises image, picture, figure, audio et video
 
 La balise Figure
 ===
@@ -52,6 +52,15 @@ Et voici un autre exemple trouvé sur le site [sketchapp.com](https://www.sketch
 </picture>
 ~~~
 
+Enfin, une méthode trouvée sur [un site de Google](https://design.google.com/articles/introducing-pixate-and-form-1-3/) en novembre 2016: 
+
+~~~
+<div class="_image js-responsive-image loaded" data-knowndimensions="1600x1050" data-preserveaspectratio="true" data-src="form.jpg" data-target="#fig-2" style="background-image: url(&quot;form-1240@2x.jpg&quot;);"></div>
+~~~
+
+On notera qu'il n'y a pas de balise image (<img>), l'image est affichée comme image de fond en css (background-image).
+
+## Références sur les images responsives
 
 - [http://caniuse.com/#feat=picture](http://caniuse.com/#feat=picture)
 - [https://github.com/scottjehl/picturefill - un polyfill]()
