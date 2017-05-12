@@ -58,7 +58,7 @@ Enfin, une méthode trouvée sur [un site de Google](https://design.google.com/a
 <div class="_image js-responsive-image loaded" data-knowndimensions="1600x1050" data-preserveaspectratio="true" data-src="form.jpg" data-target="#fig-2" style="background-image: url(&quot;form-1240@2x.jpg&quot;);"></div>
 ~~~
 
-On notera qu'il n'y a pas de balise image (<img>), l'image est affichée comme image de fond en css (background-image).
+On notera qu'il n'y a pas de balise image (&lt;img&gt;), l'image est affichée comme image de fond en css (background-image).
 
 ## Références sur les images responsives
 
