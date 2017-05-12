@@ -6,6 +6,19 @@ permalink: /html/audio-video-images/
 
 Les balises image, picture, figure, audio et video
 
+La balise image est proposée par Marc Andreessen [sur la liste de discussion "WWW-Talk"](http://1997.webhistory.org/www.lists/www-talk.1993q1/0182.html) le 25 février 1993 (il est alors étudiant à l'université d'Illinois, âgé de 22 ans).
+
+```
+I'd like to propose a new, optional HTML tag:
+IMG
+Required argument is SRC="url". 
+This names a bitmap or pixmap file for the browser to attempt to pull
+over the network and interpret as an image, to be embedded in the text
+at the point of the tag's occurrence.
+An example is:
+<IMG SRC="file://foobar.com/foo/bar/blargh.xbm"> 
+```
+
 La balise Figure
 ===
 
