@@ -16,12 +16,15 @@ Il vous aidera à:
 Les balises
 ==
 
-Le HTML n'est pas un language de programmation, mais un language de "marquage" (*markup* en anglais). Il permet de "baliser" un document afin de décrire sa structure.
+Le HTML n'est pas un langage de programmation, mais un langage de "marquage" (*markup* en anglais). Il permet de "baliser" un document afin de décrire sa structure.
 
 Le vocabulaire du langage HTML se compose de quelques 120 balises.
 
 Quelques balises présentes depuis le début:
-
+ 
+* La balise principale - `<html>` - racine du document se trouvant au début et à la fin du code.
+* L'en-tête - `<head>` - contient tous les éléments de l'en-tête d'un document.
+* Le corps - `<body>` - encadre le corps d'un fichier HTML.
 * L'hyperlien - `<a>` - qui permet de pointer vers une autre ressource en ligne.     
 * Le titre - `<h1>` à `<h6>` - permettant d'instaurer une structure interne à un document.    
 * Le paragraphe - `<p>` - qui identifie un paragraphe de texte.
@@ -55,7 +58,7 @@ Dès 2010, les premiers éléments du HTML5 ont commencé à être supportés pa
 
 ![Le logo HTML5](/cours-html/img/logo-html5.png)
 
-Ce n'est qu'en 2014 que le HTML5 devient une recommandation stable du W3C, alors que ses fonctionalités sont implémentées depuis longtemps dans les navigateurs.
+Ce n'est qu'en 2014 que le HTML5 devient une recommandation stable du W3C, alors que ses fonctionnalités sont implémentées depuis longtemps dans les navigateurs.
 
 En fin 2016, le W3C rend officielle la version HTML 5.1.
 
