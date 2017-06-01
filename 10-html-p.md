@@ -22,6 +22,9 @@ Le vocabulaire du langage HTML se compose de quelques 120 balises.
 
 Quelques balises présentes depuis le début:
 
+* La balise principale - `<html>` - racine du document se trouvant au début et à la fin du code.
+* L'en-tête - `<head>` - contient tous les éléments de l'en-tête d'un document.
+* Le corps - `<body>` - encadre le corps d'un fichier HTML.
 * L'hyperlien - `<a>` - qui permet de pointer vers une autre ressource en ligne.     
 * Le titre - `<h1>` à `<h6>` - permettant d'instaurer une structure interne à un document.    
 * Le paragraphe - `<p>` - qui identifie un paragraphe de texte.
