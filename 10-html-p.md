@@ -55,7 +55,7 @@ Dès 2010, les premiers éléments du HTML5 ont commencé à être supportés pa
 
 ![Le logo HTML5](/cours-html/img/logo-html5.png)
 
-Ce n'est qu'en 2014 que le HTML5 devient une recommandation stable du W3C, alors que ses fonctionalités sont implémentées depuis longtemps dans les navigateurs.
+Ce n'est qu'en 2014 que le HTML5 devient une recommandation stable du W3C, alors que ses fonctionnalités sont implémentées depuis longtemps dans les navigateurs.
 
 En fin 2016, le W3C rend officielle la version HTML 5.1.
 
