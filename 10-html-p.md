@@ -66,6 +66,8 @@ Actuellement, la spécification HTML est maintenue de manière parallèle par ce
 
 > J'ai toujours dit que la standardisation au W3C, c'est de l'hémoglobine sur les murs dans une ambiance feutrée. – Daniel Glazman
 
+Tout comme les pages HTML ou XHTML, les documents HTML5 nécessitent une déclaration Doctype indiquant la méthode standard de rendu par le navigateur. La décaration s'écrit "<!DOCTYPE html>"
+
 **Références:**
 
 - *[HTML5 et l’avenir du web](http://www.pompage.net/traduction/html5-et-le-futur-du-web)*, par Tim Wright, 2009
