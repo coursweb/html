@@ -56,7 +56,7 @@ En voici 4  pour étudier les contrastes de textes:
 
 * **Color contrast check**  
 
-![](/cours-web/img/color-contrast-check.jpg)
+![](/cours-html/img/color-contrast-check.jpg)
 
 C’est un outil de vérification de contraste de couleur. Très pratique est simple à comprendre, il affiche les valeurs de contrastes et les différences de tonalité. Cela nous permet ainsi de voir si ces dernières sont adéquates aux recommandations du WCAG. Il nous indique aussi la luminosité à avoir. 
 
@@ -65,17 +65,17 @@ On peut également changer en temps réel les couleurs pour voir leur impact en 
 
 * **Contrast-A**
 
-![](/cours-web/img/contrast-a.jpg)
+![](/cours-html/img/contrast-a.jpg)
 
 
-![](/cours-web/img/contrast-aa.jpg)
+![](/cours-html/img/contrast-aa.jpg)
 
 Quant à elle, cette application permet de faire des combinaisons de couleurs et de créer des palettes de couleurs personnalisées. Parmi ses autres utilitaires l’application donne la possibilité de voir nos choix de combinaisons avec certains handicaps visuels comme par exemples certaines formes de daltonisme (la protanopie, la deutéranopie et la tritanopie) ou bien avec une déficience totale de vision des couleurs (color blindness en anglais). De plus ces handicaps sont annotés selon les choix des couleurs. Et pour finir les contrastes, la luminosité et les différences de tonalité sont tous calculés.
 
 
 * **Color contrast analyser** 
 
-![](/cours-web/img/color-contrast-analyser.png)
+![](/cours-html/img/color-contrast-analyser.png)
 
 Ce logiciel est disponible sous Windows et Macintosh. Il est utile pour calculer la luminosité, la différence de tonalité pour différents types de daltonisme. C’est un site complet et simple à utiliser 
 
@@ -83,7 +83,7 @@ Ce logiciel est disponible sous Windows et Macintosh. Il est utile pour calculer
 
 * **Extensions Firefox**
 
-![](/cours-web/img/extensions-firefox.png)
+![](/cours-html/img/extensions-firefox.png)
 
 C’est un extension pour Firefox. Elle permet d’évaluer très vite les contrastes de textes et de savoir si ils sont conformes aux recommandations WCAG 2.0.
 
