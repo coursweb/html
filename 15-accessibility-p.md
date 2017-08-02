@@ -7,7 +7,11 @@ permalink: /html/accessibilite/
 Ecrire un HTML accessible
 -------
 
-L'accessibilité réside dans la capacité d'un site à afficher votre document lisible dans un maximum de situations, pour un maximum de personnes.
+L'accessibilité réside dans la capacité d'un medium (dans notre cas un site internet) à être lisible dans un maximum de situations, pour un maximum de personnes.
+
+Le terme anglais "accessibility" étant relativement long, il est parfois abrégé en **a11y** (le 11 représentant les 11 caractères tronqués).
+
+>> l'a11y DOIT faire partie du processus de design, on doit l'enseigner comme ça, non plus se contenter de "sensibiliser" :) d'où l'importance de convaincre une corporation maintenant que c'est une part intégrante de la discipline ! - [Marie-Cécile Paccard ](https://twitter.com/mcpaccard/status/891916591407005696)
 
 Parmi les critères à prendre en compte:
 - Le contraste de couleur est-il suffisant?
@@ -18,28 +22,29 @@ Contraste couleur
 
 Les contrastes de textes sont élémentaires en terme d’accessibilité de site internet. Les choix typographiques ainsi que les couleurs sont à faire méticuleusement afin que toute personnes souffrantes de troubles de la vue permanent ou temporairepuissent voir. Le premier terme désigne certaines déficiences visuelles, le second la fatigue oculaire dûe aux heures passées derrière un écran de mauvaise qualité par exemple. A ne pas oublier qu'avec l'âge les problèmes de vue s'accentuent. Il n'y pas que ça comme soucis de vue, par exemple la dysléxie (8 à 12 % de la population mondiale en souffrirait), le daltonisme (8% de cas chez les hommes et 0,5% du côté des femmes) 
 
-Le texte est sûrement une des parties la plus importante pour un site. Il sert à la compréhension même de celui-ci. Voilà pourquoi un bon traitement entre contrastes et couleurs est primordial pour ne pas avoir à plisser les yeux derrière son écran. Cepandant ce point essentiel est souvent fait de manière rapide et baclée.
+Le texte est sûrement une des parties la plus importantes pour un site. Il sert à la compréhension même de celui-ci. Voilà pourquoi un bon traitement entre contrastes et couleurs est primordial pour ne pas avoir à plisser les yeux derrière son écran. Cepandant ce point essentiel est souvent fait de manière rapide et baclée.
 
 Le WCAG "Web Content Accessibility Guidelines" ou "Règles pour l'accessibilité des contenus Web". Mais qu'est-ce que c'est le WCAG?
 
 C'est des recommandations internationales édités par la WAI (Initiative sur l’Accessibilité du web). Il existe deux version, la WCAg1.0 (1999) et WCAG2.0 (dès 2008). Ce qui différencie ces deux versions c'est le ciblage technologique: WCAG1.0 s'occupait plus certaines technologies ainsi que le contenu HTML et les transformations. Alors que WCAG2.0 cherche à s’en extraire pour devenir abscon et universel.
+
 Il existe trois niveaux de recommandations:
 
-Niveau A : niveau fondamental satisfaisant tous les critères d’accessibilité de priorité 1. Le site offre un accès minimal aux            informations contenues dans les documents Web
-Niveau AA : niveau satisfaisant tous les critères d’accessibilité de priorité 1 et 2. Le site offre un accès « correct » aux               informations contenues dans les documents Web
-Niveau AAA : niveau satisfaisant tous les critères d’accessibilité de priorité 1, 2 et 3. Le site offre un accès excellent aux              informations contenues dans les documents Web.
+* **Niveau A :** niveau fondamental satisfaisant tous les critères d’accessibilité de priorité 1. Le site offre un accès minimal aux informations contenues dans les documents Web.
+* **Niveau AA :** niveau satisfaisant tous les critères d’accessibilité de priorité 1 et 2. Le site offre un accès « correct » aux informations contenues dans les documents Web.
+* **Niveau AAA :** niveau satisfaisant tous les critères d’accessibilité de priorité 1, 2 et 3. Le site offre un accès excellent aux informations contenues dans les documents Web.
 
 Les recommandations de contrastes notés ici sont utiles seulement pour une lecture sur écran.
 
 D'après les recommandations WCAG 2.0 du W3C (Le World Wide Web Consortium, est un organisme de normalisation {maintien de normes} à but non lucratif. Il à été fondé en octobre 1994 et est dirigé par l'inventeur du Web, Tim Berners-Lee. Il s'occupe de la compatibilité des technologies du World Wide Web telles que HTML,CSS), pour obtenir le niveau AA, la règle 1.4.3 indique ceci :
 
-"Le texte (ou les images de texte informatif) de moins de 18 points (ou moins de 14 points en gras) devrait posséder un contraste de luminosité d’au moins 4,5 pour 1 avec son arrière-plan.
-Le texte (ou les images de texte informatif) de plus de 18 points (ou plus de 14 points en gras) devrait posséder un contraste de luminosité d’au moins 3 pour 1 avec son arrière-plan."
+> "Le texte (ou les images de texte informatif) de moins de 18 points (ou moins de 14 points en gras) devrait posséder un contraste de luminosité d’au moins 4,5 pour 1 avec son arrière-plan.
+> Le texte (ou les images de texte informatif) de plus de 18 points (ou plus de 14 points en gras) devrait posséder un contraste de luminosité d’au moins 3 pour 1 avec son arrière-plan."
 
 Pour obtenir le niveau le plus haut, AAA, la règle 1.4.6 indique :
 
-"Le texte (ou les images de texte informatif) de moins de 18 points (ou moins de 14 points en gras) devrait posséder un contraste de luminosité d’au moins 7 pour 1 avec son arrière-plan.
-Le texte (ou les images de texte informatif) de plus de 18 points (ou plus de 14 points en gras) devrait posséder un contraste de luminosité d’au moins 4,5 pour 1 avec son arrière-plan. »
+> "Le texte (ou les images de texte informatif) de moins de 18 points (ou moins de 14 points en gras) devrait posséder un contraste de luminosité d’au moins 7 pour 1 avec son arrière-plan.
+> Le texte (ou les images de texte informatif) de plus de 18 points (ou plus de 14 points en gras) devrait posséder un contraste de luminosité d’au moins 4,5 pour 1 avec son arrière-plan. »
 
 (https://www.w3.org/TR/2008/REC-WCAG20-20081211/#contrast-ratiodef) ici une catégorie qui nous montre les formules mathématiques pour calculer les contrastes.
 
@@ -50,9 +55,9 @@ Le calcul de contraste c’est une chose, et pour aller plus loin dans la perfec
 
 Toutefois on sait qu’il faut, du moins il est recommandé, d’avoir une luminosité supérieure ou égale à 125 ainsi qu’une différence de tonalité supérieure ou égale à 500 pour garantir une bonne lisibilité.
 
-Evidemment devoir faire à chaque fois des longs calculs pour la couleur du texte puis celle du fond devient très fatiguant. C’est pourquoi de merveilles applications ont été mises au point pour nous faciliter ce problème. Elles nous permettent d’obtenir vite les informations que l’on veut.
+Evidemment devoir faire à chaque fois des longs calculs pour la couleur du texte puis celle du fond devient très fatiguant. C’est pourquoi des applications ont été mises au point pour nous faciliter ce problème. Elles nous permettent d’obtenir vite les informations que l’on veut.
 
-En voici 4  pour étudier les contrastes de textes:
+En voici 4 pour étudier les contrastes de textes:
 
 * **Color contrast check**  
 
@@ -85,15 +90,11 @@ Ce logiciel est disponible sous Windows et Macintosh. Il est utile pour calculer
 
 ![](/cours-html/img/extensions-firefox.png)
 
-C’est un extension pour Firefox. Elle permet d’évaluer très vite les contrastes de textes et de savoir si ils sont conformes aux recommandations WCAG 2.0.
+C’est une extension pour Firefox. Elle permet d’évaluer très vite les contrastes de textes et de savoir si ils sont conformes aux recommandations WCAG 2.0.
 
+Il existe également d’autres outils pour les logiciels de graphisme, comme pour Photoshop par exemple qui, depuis la version CS4, à des filtres pour le daltonisme. Pour les trouver il suffit d’aller sous *Affichage > Format d’épreuve > Dyschromatopsie (protanopie et deutéranopie)*. Sinon il existe aussi des plugins proposé par VisCheck. Gimp à aussi son lot d’outils pour les problèmes de vision, tout comme Inskape qui a aussi des extensions pour ces mêmes problèmes. 
 
-
-Il existe également d’autres outils pour les logiciels de graphisme, comme pour photoshop par exemple qui, depuis la version CS4, à des filtres pour le daltonisme. Pour les trouver il suffit d’aller sous Affichage > Format d’épreuve > Dyschromatopsie (protanopie et deutéranopie). Sinon il existe aussi des plugins proposé par VisCheck. Gimp à aussi son son lots d’outils pour les problèmes de visions tout comme Inskape qui a aussi des extensions pour ces mêmes problèmes. 
-
-En ayant vu toute ces possibilités il ne faut pas oublier que la lisibilité d’un site se résume pas qu’aux constates mais également: le choix de la police (avec ou sans sérif, la forme et l’épaisseur des caractères), le style appliqué (gras, italique, lettres capitales), les interlignages entre les lignes et les caractères, la longueur du texte, etc. 
-
-
+En ayant vu toutes ces possibilités il ne faut pas oublier que la lisibilité d’un site se résume pas qu’aux contrastes mais également: le choix de la police (avec ou sans sérif, la forme et l’épaisseur des caractères), le style appliqué (gras, italique, lettres capitales), les interlignages entre les lignes et les caractères, la longueur du texte, etc. 
 
 Un dernier pointage sur les contrastes. Contraste positif ou négatif ?
 
@@ -117,7 +118,7 @@ En conclusion la clef de la réussite pour une bonne lisibilité c’est l’éq
 Taille du texte
 ===
 
-La taille par défaut des navigateurs est 16px, ce qui correspond à environ 11pts sur un document imprimé.
+La taille par défaut des navigateurs est **16px**, ce qui correspond à environ 11pts sur un document imprimé.
 
 Lire: 
 
@@ -139,6 +140,12 @@ Le texte entier: [https://www.w3.org/TR/WCAG20/](https://www.w3.org/TR/WCAG20/)
 
 Ressources
 ===
+
+En français:
+
+* [Convaincre les designers des bienfaits de l’accessibilité, oui, mais comment ?](https://marieguillaumet.com/convaincre-les-designers-des-bienfaits-de-l-accessibilite/), par Marie Guillaumet, juillet 2017.
+
+En anglais:
 
 * [Tools for Developing Accessible Websites](https://bitsofco.de/tools-for-developing-accessible-websites/), par Ire Aderinokun, novembre 2016.
 * [Rules for Using ARIA in HTML](https://bitsofco.de/rules-for-using-aria-in-html/), par Ire Aderinokun, janvier 2017.
