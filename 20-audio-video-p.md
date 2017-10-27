@@ -25,6 +25,14 @@ Voici un exemple simple de balise image:
 <img src="images/fichier.jpg" alt="description de l'image" height="42" width="42">
 ```
 
+### Compression d'images
+
+Il est nécessaire de compresser les images utilisées sur le web, afin d'optimiser la vitesse de chargement.
+
+Un utilitaire pour obtenir des compressions maximales: [ImageOptim](https://imageoptim.com/fr), une application MacOS gratuite et open-source. ImageOptim permet notamment de réduire le poids des images PNG, pour lesquelles des applications comme Photoshop n'offrent pas de réglages de compression. Les images PNG sont ainsi réduites d'un tiers de leur taille en moyenne.
+
+![Statistiques de compression dans ImageOptim](/cours-html/img/ImageOptim-stats.png)
+
 ### Propriété CSS utile: object-fit
 
 Une propriété CSS longtemps attendue, qui permet de spécifier comment une image (ou vidéo) doit s'adapter à son conteneur. 
@@ -47,6 +55,8 @@ Support navigateurs: cette propriété n'est pas supportée dans Internet Explor
 
 La balise Figure
 ===
+
+Les balises `<figure>` et `<figcaption>` permettent de grouper une image avec sa légende (en anglais: *caption*).
 
 Exemple d'utilisation:
 
@@ -97,7 +107,7 @@ Enfin, une méthode trouvée sur [un site de Google](https://design.google.com/a
 <div class="_image js-responsive-image loaded" data-knowndimensions="1600x1050" data-preserveaspectratio="true" data-src="form.jpg" data-target="#fig-2" style="background-image: url(&quot;form-1240@2x.jpg&quot;);"></div>
 ~~~
 
-On notera qu'il n'y a pas de balise image (&lt;img&gt;), l'image est affichée comme image de fond en css (background-image).
+On notera qu'il n'y a pas de balise image (&lt;img&gt;), l'image est affichée comme image de fond en css (background-image). Son conteneur est un simple `<div`.
 
 ## Références sur les images responsives
 
