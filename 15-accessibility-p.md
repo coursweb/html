@@ -11,14 +11,14 @@ L'accessibilité réside dans la capacité d'un medium (dans notre cas un site i
 
 Le terme anglais "accessibility" étant relativement long, il est parfois abrégé en **a11y** (le 11 représentant les 11 caractères tronqués).
 
->> l'a11y DOIT faire partie du processus de design, on doit l'enseigner comme ça, non plus se contenter de "sensibiliser" :) d'où l'importance de convaincre une corporation maintenant que c'est une part intégrante de la discipline ! - [Marie-Cécile Paccard ](https://twitter.com/mcpaccard/status/891916591407005696)
+> l'a11y DOIT faire partie du processus de design, on doit l'enseigner comme ça, non plus se contenter de "sensibiliser" :) d'où l'importance de convaincre une corporation maintenant que c'est une part intégrante de la discipline ! - [Marie-Cécile Paccard ](https://twitter.com/mcpaccard/status/891916591407005696)
 
 Parmi les critères à prendre en compte:
+
 - Le contraste de couleur est-il suffisant?
 - Les images ont-elles un texte descriptif (balise alt)?
 
-Contraste couleur
-===
+## Contraste couleur
 
 Les contrastes de textes sont élémentaires en terme d’accessibilité de site internet. Les choix typographiques ainsi que les couleurs sont à faire méticuleusement afin que toute personnes souffrantes de troubles de la vue permanent ou temporairepuissent voir. Le premier terme désigne certaines déficiences visuelles, le second la fatigue oculaire dûe aux heures passées derrière un écran de mauvaise qualité par exemple. A ne pas oublier qu'avec l'âge les problèmes de vue s'accentuent. Il n'y pas que ça comme soucis de vue, par exemple la dysléxie (8 à 12 % de la population mondiale en souffrirait), le daltonisme (8% de cas chez les hommes et 0,5% du côté des femmes) 
 
@@ -143,11 +143,15 @@ Ressources
 
 En français:
 
-* [Convaincre les designers des bienfaits de l’accessibilité, oui, mais comment ?](https://marieguillaumet.com/convaincre-les-designers-des-bienfaits-de-l-accessibilite/), par Marie Guillaumet, juillet 2017.
+<div class="cards"></div>
+
+* [Convaincre les designers des bienfaits de l’accessibilité, oui, mais comment ?](https://marieguillaumet.com/convaincre-les-designers-des-bienfaits-de-l-accessibilite/) par Marie Guillaumet, juillet 2017
 
 En anglais:
 
-* [Tools for Developing Accessible Websites](https://bitsofco.de/tools-for-developing-accessible-websites/), par Ire Aderinokun, novembre 2016.
-* [Rules for Using ARIA in HTML](https://bitsofco.de/rules-for-using-aria-in-html/), par Ire Aderinokun, janvier 2017.
-* [Web accessibility myths 2011](http://www.hassellinclusion.com/2011/12/accessibility-myths-2011/), Jonathan Hassell, 2011.
-* [Web Accessibility Myths 2011 part 2](http://www.hassellinclusion.com/2012/01/web-accessibility-myths-2011-part2/), Jonathan Hassell, 2012.
+<div class="cards"></div>
+
+* [Tools for Developing Accessible Websites](https://bitsofco.de/tools-for-developing-accessible-websites/) par Ire Aderinokun, novembre 2016
+* [Rules for Using ARIA in HTML](https://bitsofco.de/rules-for-using-aria-in-html/) par Ire Aderinokun, janvier 2017
+* [Web accessibility myths 2011](http://www.hassellinclusion.com/2011/12/accessibility-myths-2011/) Jonathan Hassell, 2011
+* [Web Accessibility Myths 2011 part 2](http://www.hassellinclusion.com/2012/01/web-accessibility-myths-2011-part2/) Jonathan Hassell, 2012
