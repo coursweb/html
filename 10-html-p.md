@@ -18,15 +18,19 @@ Les balises
 
 Le HTML n'est pas un langage de programmation, mais un langage de "marquage" (*markup* en anglais). Il permet de "baliser" un document afin de décrire sa structure.
 
-Le vocabulaire du langage HTML se compose de quelques 120 balises.
+Le vocabulaire du langage HTML se compose de quelques 120 balises. Il n'est pas nécessaire de les connaître intégralement, certaines étant très spécifiques (p.ex. les balises des tableaux, ou des formulaires).
 
-Quelques balises présentes depuis le début:
+Voici, pour commencer, les balises obligatoires pour un document HTML valide:
 
-* La balise principale - `<html>` - racine du document se trouvant au début et à la fin du code.
-* L'en-tête - `<head>` - contient tous les éléments de l'en-tête d'un document.
-* Le corps - `<body>` - encadre le corps d'un fichier HTML.
+* `<html>` : C'est la racine du document, se trouvant au début et à la fin du code.
+* `<head>` : L'en-tête, qui ne sera pas affiché, et contient diverses méta-informations (titre, auteur, mots-clés, liens vers des ressources à charger).
+* `<title>` : C'est le titre document. Il ne sera pas affiché dans le contenu de la page, mais dans la barre du navigateur (et dans les résultats de recherche Google).
+* `<body>` : Le corps du document. Tout le contenu visible se trouve dans cette balise.
+
+
+
 * L'hyperlien - `<a>` - qui permet de pointer vers une autre ressource en ligne.     
-* Le titre - `<h1>` à `<h6>` - permettant d'instaurer une structure interne à un document.    
+* Les titres - `<h1>` à `<h6>` - permettant d'instaurer une structure interne à un document. Le H signifie *heading*.    
 * Le paragraphe - `<p>` - qui identifie un paragraphe de texte.
 
 Un exemple de balise hyperlien:
@@ -35,11 +39,7 @@ Un exemple de balise hyperlien:
 <a href="http://example.com">Un Lien</a>
 ```
 
-Voir la liste de [toutes les balises](balises/).
-
-Un article au sujet des styles de liens:
-*[Signalétique des hyperliens](http://letrainde13h37.fr/43/signaletique-hyperliens/)*, par Romy Duhem-Verdière, le train de 13h37, 2013
-
+Si vous tenez à voir la liste de toutes les 120 balises, [la voici](balises/).
 
 
 ## Les versions du langage HTML.
@@ -112,7 +112,7 @@ Avec HTML5, ce mode binaire se complexifie, on se retrouve avec toute une liste 
 - **Contenu de flux (Flow content)** - correspond de près au mode "block-level", et s'applique à la majorité des éléments. Notamment: `<div>`, `<article>`, `<blockquote>`, `<img>`, `<p>`...
 - **Contenu sectionnant (Sectioning content)** - les éléments qui définissent des sections: `<article>`, `<aside>`, `<nav>`, `<section>`
 - **Contenu de titre (Heading content)** - du contenu agissant comme en-tête: `<h1>`, `<h2>`, `<h3>` etc.
-- **Contenu phrasé (Phrasing content)** - le texte du document, tout ce qui peut être contenu dans un paragraphe, notamment: `<a>`, `<span>`. Attention, `<a>` appartient à cette catégorie s'il contient seulement du contenu phrasé - sinon il devient Contenu de flux.
+- **Contenu phrasé (Phrasing content)** - le texte du document, tout ce qui peut être contenu dans un paragraphe, notamment: `<a>`, `<span>`. Correspond à peu près au mode "inline". Attention, `<a>` appartient à cette catégorie s'il contient *seulement* du contenu phrasé - sinon il devient Contenu de flux.
 - **Contenu intégré** - `<audio>`, `<canvas>`, `<embed>`, `<iframe>`, `<img>`, `<math>`, `<object>`, `<svg>`, `<video>`...
 - **Contenu interactif** - `<button>`, `<details>`, `<embed>`, `<iframe>`, `<keygen>`, `<label>`, `<select>`, et `<textarea>`.
 

@@ -11,14 +11,15 @@ Eléments de structure d'un document
 ===
 
 -----|-----:
-`<body>` | Définit le corps du document  
-`<div>` | Définit une section dans un document
-`<h1> - <h6>` | Définit un titre, soustitre ou inter-titre (*headings*)
-`<hr>` | Définit un changement thématique dans le contenu. Généralement rendu par une ligne de séparation horizontale 
-`<span>` | Définit une section dans un document
+`<body>` | Définit le corps du document.  
+`<h1> - <h6>` | Définit un titre, sous-titre ou inter-titre (*headings*).
+`<hr>` | Une ligne de séparation horizontale. Définit un changement thématique dans le contenu. 
+`<div>` | Définit une section dans un document.
+`<span>` | Définit une section dans un document.
 
 Nouveaux éléments de structure introduits avec HTML5:
 
+-----|-----:
 `<article>` | Définit un article (un contenu indépendant)  
 `<aside>` | Définit un contenu annexe 
 `<header>` | Définit l'en-tête d'un document ou d'une section
