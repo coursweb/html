@@ -94,7 +94,7 @@ Définitions:
 - section = Section générique regroupant un même sujet, une même fonctionnalité, de préférence avec un en-tête, ou bien section d'application web.
 - article = Section de contenu indépendante, pouvant être extraite individuellement du document ou syndiquée (flux RSS ou équivalent), sans pénaliser sa compréhension.
 - nav = Section possédant des liens de navigation principaux (au sein du document ou vers d'autres pages).
-- aside = Section dont le contenu est un complément par rapport à ce qui l'entoure, qui n'est pas forcément en lien direct avec le contenu mais qui peut apporter des informations supplémentaires.
+- aside = Section dont le contenu est un complément par rapport à ce qui l'entoure, qui n'est pas forcément en lien direct avec le contenu, mais qui peut apporter des informations supplémentaires.
 - footer = Section de conclusion d'une section ou d'un article, voire du document entier (pied de page).
 
 
