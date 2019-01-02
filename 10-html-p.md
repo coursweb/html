@@ -60,9 +60,9 @@ Dès 2010, les premiers éléments du HTML5 ont commencé à être supportés pa
 
 Ce n'est qu'en 2014 que le HTML5 devient une recommandation stable du W3C, alors que ses fonctionnalités sont implémentées depuis longtemps dans les navigateurs.
 
-En fin 2016, le W3C rend officielle la version HTML 5.1.
+En fin 2016, le W3C rend officielle la version HTML 5.1. En décembre 2017, c'est la [version 5.2](https://www.w3.org/TR/html52/) qui est officialisée. La version actuellement en travail est la 5.3.
 
-Actuellement, la spécification HTML est maintenue de manière parallèle par ces deux groupes de travail: 
+La spécification HTML est maintenue de manière parallèle par les deux groupes de travail: 
 
 - La spécification HTML du **W3C**: [https://w3c.github.io/html/](https://w3c.github.io/html/)
 - La spécification HTML du **WHATWG**: [https://html.spec.whatwg.org/multipage/](https://html.spec.whatwg.org/multipage/)
@@ -77,7 +77,7 @@ Tout comme les pages HTML ou XHTML, les documents HTML5 nécessitent une déclar
 - *[The design of HTML5](https://adactio.com/articles/1704)*, présentation de Jeremy Keith, donnée à la conférence Fronteers 2010, Amsterdam.
 - Un outil pour vérifer le support de votre navigateur: [http://html5test.com/](http://html5test.com/)
 
-<h3>Balises structurantes</h3>
+### Balises structurantes
 
 Les nouvelles balises structurantes du HTML5: 
 
@@ -90,16 +90,15 @@ Les nouvelles balises structurantes du HTML5:
 
 Définitions:
 
-- header = Section d'introduction d'un article, d'une autre section ou du document entier (en-tête de page).
-- section = Section générique regroupant un même sujet, une même fonctionnalité, de préférence avec un en-tête, ou bien section d'application web.
-- article = Section de contenu indépendante, pouvant être extraite individuellement du document ou syndiquée (flux RSS ou équivalent), sans pénaliser sa compréhension.
-- nav = Section possédant des liens de navigation principaux (au sein du document ou vers d'autres pages).
-- aside = Section dont le contenu est un complément par rapport à ce qui l'entoure, qui n'est pas forcément en lien direct avec le contenu, mais qui peut apporter des informations supplémentaires.
-- footer = Section de conclusion d'une section ou d'un article, voire du document entier (pied de page).
+- **header** = Section d'introduction d'un article, d'une autre section ou du document entier (en-tête de page).
+- **section** = Section générique regroupant un même sujet, une même fonctionnalité, de préférence avec un en-tête, ou bien section d'application web.
+- **article** = Section de contenu indépendante, pouvant être extraite individuellement du document ou syndiquée (flux RSS ou équivalent), sans pénaliser sa compréhension.
+- **nav** = Section possédant des liens de navigation principaux (au sein du document ou vers d'autres pages).
+- **aside** = Section dont le contenu est un complément par rapport à ce qui l'entoure, qui n'est pas forcément en lien direct avec le contenu, mais qui peut apporter des informations supplémentaires.
+- **footer** = Section de conclusion d'une section ou d'un article, voire du document entier (pied de page).
 
 
-Pourquoi on ne peut pas mettre de DIV dans un P
-===
+## Pourquoi on ne peut pas mettre de DIV dans un P
 
 Historiquement, les éléments HTML peuvent se présenter de deux manières: sous forme de **bloc** ("block-level" elements) ou sous forme de **ligne** ("inline" elements). 
 
@@ -116,7 +115,7 @@ Avec HTML5, ce mode binaire se complexifie, on se retrouve avec toute une liste 
 - **Contenu intégré** - `<audio>`, `<canvas>`, `<embed>`, `<iframe>`, `<img>`, `<math>`, `<object>`, `<svg>`, `<video>`...
 - **Contenu interactif** - `<button>`, `<details>`, `<embed>`, `<iframe>`, `<keygen>`, `<label>`, `<select>`, et `<textarea>`.
 
-Là où cela devient important: certains éléments ne peuvent contenir *que* du "phrasing content". C'est le cas pour les balises `<p>` ou `<h1>`:  
+Là où cela devient important: certains éléments ne peuvent contenir *que* du "phrasing content". C'est le cas pour les balises `<p>` ou `<h1>`.  
  
 Plus d'informations: 
  
