@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ressources
-permalink: /html/ressources/
+permalink: ressources.html
 ---
 
 Quelques ressources pour aller plus loin:

@@ -1,10 +1,10 @@
 ---
 layout: page
 title: HTML
-permalink: /html/
+permalink: index.html
 ---
 
-![](/cours-html/img/head-body-tag.jpg)
+![](img/head-body-tag.jpg)
 
 Ce support de cours a pour objectif de vous introduire au langage HTML.
 
@@ -50,13 +50,13 @@ S'ensuit une période de stagnation, durant laquelle le groupe de travail HTML d
 
 En 2004, un groupe de travail concurrent se forme, nommé **WHATWG** (Web Hypertext Application Technology Working Group), rassemblant des représentants de Apple, Mozilla et Opera. Ce groupe élabore le standard **HTML5** entre 2004-2007. En janvier 2008, la première spécification est publiée, qui est adoptée comme référence par le groupe de travail HTML du W3C.
 
-![](/cours-html/img/standards-timeline-html.png)
+![](img/standards-timeline-html.png)
 
 ## HTML5
 
 Dès 2010, les premiers éléments du HTML5 ont commencé à être supportés par les navigateurs, et des livres sur le HTML commencent à être publiés. Un [logo officiel](https://www.w3.org/html/logo/), conçu par l'agence hawaïenne [Ocupop](http://ocupop.com/html5), est dévoilé en janvier 2011.
 
-![Le logo HTML5](/cours-html/img/logo-html5.png)
+![Le logo HTML5](img/logo-html5.png)
 
 Ce n'est qu'en 2014 que le HTML5 devient une recommandation stable du W3C, alors que ses fonctionnalités sont implémentées depuis longtemps dans les navigateurs.
 

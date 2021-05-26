@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Toutes les balises
-permalink: /html/balises/
+permalink: balises.html
 ---
 
 Liste des balises HTML disponibles
