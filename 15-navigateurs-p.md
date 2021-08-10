@@ -41,7 +41,4 @@ Les statistiques pour la Suisse en août 2021 (fournies par [gs.statcounter.com]
 
 **Edge** est un navigateur développé par Microsoft. Sorti en 2015, il est inclus dans le système Windows 10. Son usage global en 2021 est de 3% seulement.
 
-**Opera** est un navigateur norvégien développé depuis 1994. Depuis 2013, il utilise le même moteur de rendu que Chrome. Populaire principalement sur mobile, il détient 11% du trafic mobile mondial en mai 2016.
-
-**UC Browser** est un navigateur mobile chinois, qui détient 20% du trafic mobile mondial en mai 2016.
-
+**Samsung Internet** est un navigateur web mobile pour les smartphones et les tablettes Android développé par Samsung depuis 2015. Il est basé sur le projet open-source Chromium.
