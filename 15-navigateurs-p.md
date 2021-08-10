@@ -15,7 +15,7 @@ Certains choix qui auraient été exclus en 2014 sont devenus pertinents en 2016
 Les navigateurs actuellement en utilisation (usage mondial, août 2021, toutes plateformes):
 
 1. **Chrome**: 65% (dont 34% sur Android)
-2. **Safari**: 18% (dont 12% iPhone)
+2. **Safari**: 18% (dont 12% sur iPhone)
 3. **Firefox**: 3.77%
 4. **Samsung Internet**: 3.33%
 5. **Edge**: 3%
