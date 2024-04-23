@@ -146,6 +146,25 @@ Tableaux
 `<tbody>` | Regroupe le corps d'un tableau
 `<tfoot>` | Regroupe le pied d'un tableau 
 
+Exemple de tableau:
+
+```html
+<table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Jane</td>
+      <td>30</td>
+    </tr>
+  </table>
+```
+
 Balises récentes et expérimentales
 ===
 

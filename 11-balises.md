@@ -78,7 +78,7 @@ Balises pour les médias
 Balises générales ( méta-éléments)
 ===
 
-Ces balises se situent avant le contenu:
+Ces balises se situent avant le contenu.
 
 -----|-----:
 `<!DOCTYPE>` | Définit le type de document. Doit se trouver tout en début du code.
@@ -96,23 +96,21 @@ Exemple:
 
 ```html
 
-<!DOCTYPE html> <!-- 👈 Doctype tag -->
+<!DOCTYPE html>
 <html>
 <head>
   <title>My Page</title>
   <meta name="description" content="A description of my page.">
-  <style> <!-- 👈 style tag open -->
+  <style>
     h1 {
       color: blue;
     }
-  </style> <!-- 👈 style tag close -->
+  </style>
 </head>
 <body>
   <h1>Welcome to my page!</h1>
 </body>
 </html>
-
-```
 
 
 ## Ressources
