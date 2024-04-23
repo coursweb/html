@@ -4,7 +4,7 @@ title: Balises essentielles
 permalink: balises-essentielles.html
 ---
 
-Liste des balises HTML essentielles à connaître.
+Cette page présente une liste des balises HTML essentielles à connaître. Ce sont les plus fréquemment utilisées (selon les sources de données en bas de page).
 
 ## Eléments de structure
 
