@@ -42,8 +42,8 @@ Listes, Définitions, etc
 Balises pour les listes:
 
 -----|-----:
-`<ul>` | Defines an unordered list
-`<li>` | Defines a list item
+`<ul>` | Définit une liste ("unordered list")
+`<li>` | Définit un élément à l'intérieur d'une liste ("list item")
 
 Exemple: 
 
@@ -84,7 +84,7 @@ Ces balises se situent avant le contenu.
 `<!DOCTYPE>` | Définit le type de document. Doit se trouver tout en début du code.
 `<html>` | Définit la racine d'un document HTML. Englobe tout le document. 
 `<head>` | Une section (invisible) en début de document, contenant des informations au sujet du document.
-`<meta>` | Définit des métadonnes.
+`<meta>` | Définit des métadonnées.
 `<title>` | Définit le titre du document (affiché dans la barre du navigateur, pas dans le contenu de la page).
 `<link>` | Définit une relation entre un document et une ressource externe (le plus souvent, des feuilles de styles CSS).
 `<script>` | Définit un script qui sera exéctué par le navigateur.
@@ -95,7 +95,6 @@ Ces balises se situent avant le contenu.
 Exemple:
 
 ```html
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -111,7 +110,7 @@ Exemple:
   <h1>Welcome to my page!</h1>
 </body>
 </html>
-
+```
 
 ## Ressources
 
