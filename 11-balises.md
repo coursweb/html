@@ -103,7 +103,7 @@ Exemple:
   <meta name="description" content="A description of my page.">
   <style>
     h1 {
-      color: blue;
+      color: #424242;
     }
   </style>
 </head>
