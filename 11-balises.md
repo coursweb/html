@@ -120,7 +120,7 @@ Tableaux
 ===
 
 -----|-----:
-`<table>` | Définit un tableau. [W3C](https://www.w3.org/community/webed/wiki/HTML/Elements/table), 
+`<table>` | Définit un tableau. [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/table) 
 `<tr>` | Définit un rang horizontal 
 `<td>` | Définit une cellule 
 `<th>` | Defines a header cell in a table  
@@ -129,7 +129,7 @@ Tableaux
 `<col>` | Specifies column properties for each column within a `<colgroup>` element 
 `<thead>` | Regroupe l'en-tête d'un tableau  
 `<tbody>` | Regroupe le corps d'un tableau
-`<tfoot>` | Regroupe le pied d'un tableau. [W3C](https://www.w3.org/community/webed/wiki/HTML/Elements/tfoot). 
+`<tfoot>` | Regroupe le pied d'un tableau 
 
 Balises récentes et expérimentales
 ===
@@ -139,7 +139,6 @@ Balises récentes et expérimentales
 `<dialog>` | Defines a dialog box or window. Pas supporté par IE, Firefox, Safari.
 `<menu>` | Defines a list/menu of commands
 `<menuitem>` | Defines a command/menu item that the user can invoke from a popup menu
- `<picture>` | Permet de définir des images responsives.
 
 Balises générales
 ===
