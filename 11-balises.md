@@ -6,9 +6,9 @@ permalink: balises-essentielles.html
 
 Liste des balises HTML essentielles à connaître.
 
-## Eléments de structure d'un document
+## Eléments de structure
 
-Éléments de structure sémantique introduits avec HTML5:
+Éléments de structure sémantiques:
 
 -----|-----:
 `<section>` | Définit une section dans un document
@@ -24,7 +24,7 @@ Liste des balises HTML essentielles à connaître.
 
 -----|-----:
 `<div>` | Définit une section dans un document (formaté en display:block).
-`<span>` | Définit une section dans un document (formaté en display:inline).
+`<span>` | Définit une section dans un texte (formaté en display:inline).
 
 ## Eléments de contenu
 
@@ -45,6 +45,15 @@ Balises pour les listes:
 `<ul>` | Defines an unordered list
 `<li>` | Defines a list item
 
+Exemple: 
+
+```html
+<ul>
+  <li>Elément 1</li>
+  <li>Elément 2</li>
+  <li>Elément 3</li>
+</ul>
+```
 
 Balises de médias
 ===
@@ -53,8 +62,8 @@ Balises pour les images
 
 -----|-----:
 `<img>` | Définit une image
-`<picture>` | Un contenur d'image pouvant inclure différentes variantes – [W3C](http://w3c.github.io/html/semantics-embedded-content.html#the-picture-element) / [caniuse](http://caniuse.com/#search=picture) / [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/picture)
-`<figure>` | Permet de grouper une image avec la légende qui l'accompagne
+`<picture>` | Un conteneur d'image pouvant inclure [différentes variantes](https://cours-web.ch/media/25-balise-picture.html) – [W3C](http://w3c.github.io/html/semantics-embedded-content.html#the-picture-element) / [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/picture)
+`<figure>` | Permet de [grouper une image](https://cours-web.ch/media/20-balise-figure.html) avec la légende qui l'accompagne
 `<figcaption>` | Permet de définir une légende, à l'intérieur d'un élément `<figure>`
 
 Balises pour les médias
@@ -82,6 +91,29 @@ Ces balises se situent avant le contenu:
 `<style>` | Définit des styles pour le document.
 `<!--...-->` | Définit un commentaire (code qui ne sera pas affiché).
 `<body>` | Délimite le contenu visible du document.
+
+Exemple:
+
+```html
+
+<!DOCTYPE html> <!-- 👈 Doctype tag -->
+<html>
+<head>
+  <title>My Page</title>
+  <meta name="description" content="A description of my page.">
+  <style> <!-- 👈 style tag open -->
+    h1 {
+      color: blue;
+    }
+  </style> <!-- 👈 style tag close -->
+</head>
+<body>
+  <h1>Welcome to my page!</h1>
+</body>
+</html>
+
+```
+
 
 ## Ressources
 
