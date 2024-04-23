@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Balises essentielles
-permalink: balises.html
+permalink: balises-essentielles.html
 ---
 
 Liste des balises HTML essentielles à connaître.
