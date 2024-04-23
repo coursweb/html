@@ -85,5 +85,7 @@ Ces balises se situent avant le contenu:
 
 ## Ressources
 
-- Information sur [les éléments les plus utilisés en 2005](https://web.archive.org/web/20131003124411/https://developers.google.com/webmasters/state-of-the-web/2005/pages), analyse statistique établie par Ian Hickson pour Google.
-- [The Average Web Page](https://css-tricks.com/average-web-page-data-analyzing-8-million-websites/), analyse établie en 2016.
+Les balises essentielles ont été établie sur la base des analyses suivantes:
+
+- Information sur [les éléments les plus utilisés](https://web.archive.org/web/20131003124411/https://developers.google.com/webmasters/state-of-the-web/2005/pages), analyse statistique établie par Ian Hickson pour Google en 2005, portant sur 1 millard de sites.
+- [The Average Web Page](https://css-tricks.com/average-web-page-data-analyzing-8-million-websites/), analyse établie en 2016, pourtant sur 8 millions de sites.
