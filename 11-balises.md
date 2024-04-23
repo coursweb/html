@@ -83,3 +83,7 @@ Ces balises se situent avant le contenu:
 `<!--...-->` | Définit un commentaire (code qui ne sera pas affiché).
 `<body>` | Délimite le contenu visible du document.
 
+## Ressources
+
+- Information sur [les éléments les plus utilisés en 2005](https://web.archive.org/web/20131003124411/https://developers.google.com/webmasters/state-of-the-web/2005/pages), analyse statistique établie par Ian Hickson pour Google.
+- [The Average Web Page](https://css-tricks.com/average-web-page-data-analyzing-8-million-websites/), analyse établie en 2016.
