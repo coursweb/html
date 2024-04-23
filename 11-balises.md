@@ -99,14 +99,16 @@ Exemple:
 <html>
 <head>
   <title>My Page</title>
+  <meta charset="utf-8">
   <meta name="description" content="A description of my page.">
+  <link rel="stylesheet" href="style.css">
   <style>
-    h1 {
-      color: #424242;
-    }
+    h1 { color: #424242; }
   </style>
+  <script src="https://jquery.com/base.js"></script> 
 </head>
 <body>
+  <!-- Ici commence le contenu de la page -->
   <h1>Welcome to my page!</h1>
 </body>
 </html>
