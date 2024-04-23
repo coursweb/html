@@ -11,14 +11,12 @@ Liste des balises HTML essentielles à connaître.
 Éléments de structure sémantiques:
 
 -----|-----:
-`<section>` | Définit une section dans un document
-`<article>` | Définit un article (un contenu indépendant)  
+`<section>` | Définit une section dans un document ([MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/section))
+`<article>` | Définit un article (un contenu autonome) ([MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/article))
 `<h1> - <h6>` | Définit un titre, sous-titre ou inter-titre (*headings*).
 `<header>` | Définit l'en-tête d'un document ou d'une section
 `<footer>` | Définit le pied d'un document ou d'une section 
-`<main>` | Désigne le contenu principal d'un document 
-`<nav>` | Définit un menu de navigation  
-`<aside>` | Définit un contenu annexe
+`<nav>` | Définit une section destinée à la navigation 
 
 Éléments de structure génériques:
 
@@ -45,14 +43,16 @@ Balises pour les listes:
 `<ul>` | Définit une liste ("unordered list")
 `<li>` | Définit un élément à l'intérieur d'une liste ("list item")
 
-Exemple: 
+Exemple de navigation formatée avec les éléments NAV et UL : 
 
 ```html
-<ul>
-  <li>Elément 1</li>
-  <li>Elément 2</li>
-  <li>Elément 3</li>
-</ul>
+<nav class="menu">
+  <ul>
+    <li><a href="#Accueil">Accueil</a></li>
+    <li><a href="#Apropos">À propos</a></li>
+    <li><a href="#Contact">Contact</a></li>
+  </ul>
+</nav>
 ```
 
 Balises de médias
