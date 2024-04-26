@@ -34,8 +34,7 @@ Cette page présente une liste des balises HTML essentielles à connaître. Ce s
 `<br>` | Un retour de ligne simple (line break).
 
 
-Listes, Définitions, etc
-===
+## Listes, Définitions, etc
 
 Balises pour les listes:
 
@@ -55,8 +54,7 @@ Exemple de navigation formatée avec les éléments NAV et UL :
 </nav>
 ```
 
-Balises de médias
-===
+## Balises de médias
 
 Balises pour les images
 
@@ -75,8 +73,7 @@ Balises pour les médias
 `<canvas>` | Conteneur pour des visuels codés en Javascript.
 
 
-Balises générales ( méta-éléments)
-===
+## Balises générales ( méta-éléments)
 
 Ces balises se situent avant le contenu.
 
@@ -116,7 +113,7 @@ Exemple:
 
 ## Ressources
 
-Les balises essentielles ont été établie sur la base des analyses suivantes:
+Les balises essentielles ont été établies sur la base des analyses suivantes:
 
-- Information sur [les éléments les plus utilisés](https://web.archive.org/web/20131003124411/https://developers.google.com/webmasters/state-of-the-web/2005/pages), analyse statistique établie par Ian Hickson pour Google en 2005, portant sur 1 millard de sites.
-- [The Average Web Page](https://css-tricks.com/average-web-page-data-analyzing-8-million-websites/), analyse établie en 2016, pourtant sur 8 millions de sites.
+- Information sur [les éléments les plus utilisés](https://web.archive.org/web/20131003124411/https://developers.google.com/webmasters/state-of-the-web/2005/pages), analyse statistique établie par Ian Hickson pour Google en 2005, portant sur 1 milliard de sites.
+- [The Average Web Page](https://css-tricks.com/average-web-page-data-analyzing-8-million-websites/), analyse établie en 2016, portant sur 8 millions de sites.
