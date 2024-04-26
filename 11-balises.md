@@ -34,7 +34,7 @@ Cette page présente une liste des balises HTML essentielles à connaître. Ce s
 `<br>` | Un retour de ligne simple (line break).
 
 
-## Listes, Définitions, etc
+## Listes, Définitions, etc
 
 Balises pour les listes:
 
@@ -54,9 +54,9 @@ Exemple de navigation formatée avec les éléments NAV et UL :
 </nav>
 ```
 
-## Balises de médias
+## Balises de médias
 
-Balises pour les images
+Balises pour les images:
 
 -----|-----:
 `<img>` | Définit une image
@@ -64,7 +64,7 @@ Balises pour les images
 `<figure>` | Permet de [grouper une image](https://cours-web.ch/media/20-balise-figure.html) avec la légende qui l'accompagne
 `<figcaption>` | Permet de définir une légende, à l'intérieur d'un élément `<figure>`
 
-Balises pour les médias
+Balises pour les médias:
 
 -----|-----:
 `<audio>` | Définit un contenu sonore.
@@ -117,3 +117,5 @@ Les balises essentielles ont été établies sur la base des analyses suivantes:
 
 - Information sur [les éléments les plus utilisés](https://web.archive.org/web/20131003124411/https://developers.google.com/webmasters/state-of-the-web/2005/pages), analyse statistique établie par Ian Hickson pour Google en 2005, portant sur 1 milliard de sites.
 - [The Average Web Page](https://css-tricks.com/average-web-page-data-analyzing-8-million-websites/), analyse établie en 2016, portant sur 8 millions de sites.
+
+Selon l'analyse de 2016, les sites web utilisent en moyenne **26 éléments différents** (19 dans la statistique de 2005).
