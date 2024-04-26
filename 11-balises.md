@@ -33,8 +33,7 @@ Cette page présente une liste des balises HTML essentielles à connaître. Ce s
 `<strong>` | Du texte avec ume importance forte, rendu en gras.
 `<br>` | Un retour de ligne simple (line break).
 
-
-## Listes, Définitions, etc
+## Listes
 
 Balises pour les listes:
 
