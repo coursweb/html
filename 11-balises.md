@@ -30,7 +30,7 @@ Cette page présente une liste des balises HTML essentielles à connaître. Ce s
 `<a>` | Un hyperlien, avec l'attribut `href` indiquant la cible. 
 `<p>` | Un paragraphe de texte 
 `<em>` | Du texte avec "emphase", rendu en italique. 
-`<strong>` | Du texte avec ume importance forte, rendu en gras.
+`<strong>` | Du texte avec une importance forte, rendu en gras.
 `<br>` | Un retour de ligne simple (line break).
 
 ## Listes
