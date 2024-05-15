@@ -12,11 +12,11 @@ Cette page présente une liste des balises HTML essentielles à connaître. Ce s
 
 -----|-----:
 `<section>` | Définit une section dans un document ([MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/section))
-`<article>` | Définit un article (un contenu autonome) ([MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/article))
-`<h1> - <h6>` | Définit un titre, sous-titre ou inter-titre (*headings*).
-`<header>` | Définit l'en-tête d'un document ou d'une section
-`<footer>` | Définit le pied d'un document ou d'une section 
-`<nav>` | Définit une section destinée à la navigation 
+`<article>` | Définit un article (une section de contenu indépendante) ([MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/article))
+`<h1> - <h6>` | Définit un titre, sous-titre ou inter-titre (*heading*). Permet d'instaurer une structure interne à un document.
+`<header>` | Section d'introduction d'un article, d'une autre section ou du document entier (par exemple: en-tête de page)
+`<footer>` | Section de conclusion d'une section ou d'un article, voire du document entier (par exemple: pied de page) 
+`<nav>` | Une section destinée à la navigation, possédant des liens de navigation principaux (au sein du document ou vers d'autres pages)
 
 Éléments de structure génériques:
 
@@ -27,11 +27,17 @@ Cette page présente une liste des balises HTML essentielles à connaître. Ce s
 ## Eléments de contenu
 
 -----|-----:
-`<a>` | Un hyperlien, avec l'attribut `href` indiquant la cible. 
+`<a>` | Un hyperlien, avec l'attribut `href` indiquant la cible. Permet de pointer vers une autre ressource en ligne
 `<p>` | Un paragraphe de texte 
 `<em>` | Du texte avec "emphase", rendu en italique. 
 `<strong>` | Du texte avec une importance forte, rendu en gras.
 `<br>` | Un retour de ligne simple (line break).
+
+Un exemple de balise hyperlien:
+
+```html
+<a href="https://example.com">Un Lien</a>
+```
 
 ## Listes
 
@@ -74,19 +80,24 @@ Balises pour les médias:
 
 ## Balises générales ( méta-éléments)
 
-Ces balises se situent avant le contenu.
+Ces balises se situent avant le contenu. Certaines de ces balises sont obligatoires pour un document HTML valide:
 
 -----|-----:
 `<!DOCTYPE>` | Définit le type de document. Doit se trouver tout en début du code.
-`<html>` | Définit la racine d'un document HTML. Englobe tout le document. 
-`<head>` | Une section (invisible) en début de document, contenant des informations au sujet du document.
+`<html>` | Définit la racine d'un document HTML. Englobe tout le document (au début et à la fin du code). 
+* `<html>` : C'est la racine du document, se trouvant au début et à la fin du code.
+* `<head>` : L'en-tête, qui ne sera pas affiché, et contient diverses méta-informations au sujet du document (titre, auteur, mots-clés, liens vers des ressources à charger).
+* `<title>` : C'est le titre document. Il ne sera pas affiché dans le contenu de la page, mais dans la barre du navigateur (et dans les résultats de recherche Google).
+* `<body>` : Le corps du document. Tout le contenu visible se trouve dans cette balise.
+
+Eléments optionnels mais fréquents:
+
+-----|-----:
 `<meta>` | Définit des métadonnées.
-`<title>` | Définit le titre du document (affiché dans la barre du navigateur, pas dans le contenu de la page).
 `<link>` | Définit une relation entre un document et une ressource externe (le plus souvent, des feuilles de styles CSS).
 `<script>` | Définit un script qui sera exéctué par le navigateur.
 `<style>` | Définit des styles pour le document.
 `<!--...-->` | Définit un commentaire (code qui ne sera pas affiché).
-`<body>` | Délimite le contenu visible du document.
 
 Exemple:
 
