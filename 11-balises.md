@@ -85,10 +85,10 @@ Ces balises se situent avant le contenu. Certaines de ces balises sont obligatoi
 -----|-----:
 `<!DOCTYPE>` | Définit le type de document. Doit se trouver tout en début du code.
 `<html>` | Définit la racine d'un document HTML. Englobe tout le document (au début et à la fin du code). 
-* `<html>` : C'est la racine du document, se trouvant au début et à la fin du code.
-* `<head>` : L'en-tête, qui ne sera pas affiché, et contient diverses méta-informations au sujet du document (titre, auteur, mots-clés, liens vers des ressources à charger).
-* `<title>` : C'est le titre document. Il ne sera pas affiché dans le contenu de la page, mais dans la barre du navigateur (et dans les résultats de recherche Google).
-* `<body>` : Le corps du document. Tout le contenu visible se trouve dans cette balise.
+`<html>` | C'est la racine du document, se trouvant au début et à la fin du code.
+`<head>` | L'en-tête, qui ne sera pas affiché, et contient diverses méta-informations au sujet du document (titre, auteur, mots-clés, liens vers des ressources à charger).
+`<title>` | C'est le titre document. Il ne sera pas affiché dans le contenu de la page, mais dans la barre du navigateur (et dans les résultats de recherche Google).
+`<body>` | Le corps du document. Tout le contenu visible se trouve dans cette balise.
 
 Eléments optionnels mais fréquents:
 
