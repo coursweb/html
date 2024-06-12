@@ -4,7 +4,7 @@ title: Accessibilité
 permalink: accessibilite.html
 ---
 
-## Support de cours Accessibilité
+## Support de cours Accessibilité
 
 Ce support a migré vers une page dédiée:
 
