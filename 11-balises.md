@@ -4,7 +4,7 @@ title: Balises essentielles
 permalink: balises-essentielles.html
 ---
 
-Cette page présente une liste des balises HTML essentielles à connaître. Ce sont les plus fréquemment utilisées (selon les sources de données en bas de page).
+Cette page présente une liste d'environ **30 balises HTML essentielles**. Ce sont les plus fréquemment utilisées (selon les sources de données en bas de page).
 
 ## Eléments de structure
 
@@ -127,4 +127,4 @@ Les balises essentielles ont été établies sur la base des analyses suivantes:
 - Information sur [les éléments les plus utilisés](https://web.archive.org/web/20131003124411/https://developers.google.com/webmasters/state-of-the-web/2005/pages), analyse statistique établie par Ian Hickson pour Google en 2005, portant sur 1 milliard de sites.
 - [The Average Web Page](https://css-tricks.com/average-web-page-data-analyzing-8-million-websites/), analyse établie en 2016, portant sur 8 millions de sites.
 
-Selon l'analyse de 2016, les sites web utilisent en moyenne **26 éléments différents** (19 dans la statistique de 2005).
+Selon l'analyse de 2016, les sites web utilisent en moyenne **26 éléments différents** (la moyenne était de **19** dans la statistique de 2005).
