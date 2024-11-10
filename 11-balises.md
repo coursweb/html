@@ -122,7 +122,7 @@ Exemple:
 
 ## Ressources
 
-Les balises essentielles ont été établies sur la base des analyses suivantes:
+Les balises essentielles présentées sur cette page ont été choisies sur la base des analyses suivantes:
 
 - Information sur [les éléments les plus utilisés](https://web.archive.org/web/20131003124411/https://developers.google.com/webmasters/state-of-the-web/2005/pages), analyse statistique établie par Ian Hickson pour Google en 2005, portant sur 1 milliard de sites.
 - [The Average Web Page](https://css-tricks.com/average-web-page-data-analyzing-8-million-websites/), analyse établie en 2016, portant sur 8 millions de sites.
