@@ -23,5 +23,5 @@ Un exemple de balise hyperlien:
 <a href="http://example.com">Un Lien</a>
 ```
 
-Voir la liste des [balises les plus essentielles](balises-essentielles.html).
+Voir la liste des [balises les plus essentielles](balises-essentielles.html) (environ 30 balises).
 
