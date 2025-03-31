@@ -3,9 +3,6 @@ layout: page
 title: HTML
 permalink: index.html
 ---
-
-![](img/head-body-tag.jpg)
-
 Ce support de cours a pour objectif de vous introduire au langage HTML.
 
 Il vous aidera à: 
@@ -18,7 +15,7 @@ Les balises
 
 Le HTML n'est pas un langage de programmation, mais un langage de "marquage" (*markup* en anglais). Il permet de "baliser" un document afin de décrire sa structure.
 
-Le vocabulaire du langage HTML se compose de quelques 120 balises. Il n'est pas nécessaire de les connaître intégralement, certaines étant très spécifiques (p.ex. les balises des tableaux, ou des formulaires).
+Le vocabulaire du langage HTML se compose de quelques 120 balises.
 
 Un exemple de balise hyperlien:
 
