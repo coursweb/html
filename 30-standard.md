@@ -16,7 +16,7 @@ En 2004, un groupe de travail concurrent se forme, nommé **WHATWG** (Web Hypert
 
 ## HTML5
 
-Dès 2010, les premiers éléments du HTML5 ont commencé à être supportés par les navigateurs, et des livres sur le HTML commencent à être publiés. Un [logo officiel](https://www.w3.org/html/logo/), conçu par l'agence hawaïenne [Ocupop](http://ocupop.com/html5), est dévoilé en janvier 2011.
+Dès 2010, les premiers éléments du HTML5 ont commencé à être supportés par les navigateurs, et des livres sur le HTML commencent à être publiés. Un [logo officiel](https://www.w3.org/html/logo/), conçu par l'agence hawaïenne [Ocupop](https://web.archive.org/web/20120427042329/http://ocupop.com/html5), est dévoilé en janvier 2011.
 
 ![Le logo HTML5](img/logo-html5.png)
 
