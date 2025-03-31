@@ -26,7 +26,7 @@ En fin 2016, le W3C rend officielle la version HTML 5.1. En décembre 2017, c'es
 
 Pendant quelques années, la spécification HTML est maintenue de manière parallèle par les deux groupes de travail, **W3C** et **WHATWG**.
 
-Depuis 2019, un accord est signé, et on trouve la spécification HTML à un endroit : [https://html.spec.whatwg.org/](html.spec.whatwg.org/multipage/)
+Depuis 2019, un accord est signé, et on trouve la spécification HTML à un endroit : [https://html.spec.whatwg.org/](https://html.spec.whatwg.org/multipage/)
 
 
 **Références:**
