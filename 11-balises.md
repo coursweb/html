@@ -24,6 +24,12 @@ Cette page présente une liste d'environ **30 balises HTML essentielles**. Ce so
 `<div>` | Définit une section dans un document (formaté en display:block).
 `<span>` | Définit une section dans un texte (formaté en display:inline).
 
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="abwyybp" data-editable="true" data-user="eracom" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/eracom/pen/abwyybp">
+  div et span</a> by Manuel Schmalstieg (<a href="https://codepen.io/eracom">@eracom</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
 ## Eléments de contenu
 
 -----|-----:
